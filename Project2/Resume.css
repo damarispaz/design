@@ -1,0 +1,129 @@
+body, html{
+    height: 100%;
+}
+
+h1,h2,h3,h4,p,ul,li,nav{
+	font-family: 'Questrial', sans-serif; 
+    
+}
+
+#wrap{
+	width:1000px;
+	background-color: transparent;
+	padding: 120px 75px 0px 50px;
+    display: flex;
+    margin-left: 750px;
+	
+}
+.summary{
+	width:500px;
+    margin: 15px 0 0 0; 
+}
+.left{
+	width:500px;
+	background-color: transparent;
+	height: 50%;
+	float: left;
+	text-align: right;
+	line-height: 20px;	
+}
+.right{
+	width:500px;
+	background-color: transparent;
+	height: 50%;
+	float: right;
+	text-align: left;
+	line-height: 20px;
+    flex-grow: 1;
+}
+
+ul{
+	list-style-type: none;
+	
+}
+
+li{
+	font-size: 14px;
+
+    
+}
+
+h1{
+	line-height:0;
+	font-size: 25px;
+	font-weight: 10000;
+	color: #333333;
+    padding: 0;
+}
+
+h2{
+	font-size: 15px;
+	font-weight: 900;
+	color: #333333;
+    line-height: 15px;
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+h3{
+	font-weight: bold;
+	line-height: 30px;
+	padding: 0 0 4px 0;
+	margin: 0;
+	font-size: 19px;
+	color: #11111;
+}
+
+h4{
+	font-weight: 2000;
+	line-height: 25px;
+	padding: 0;
+	margin: 0 0 4px 0;
+	color: #333333;
+	font-size: 15px;
+}
+p{
+	font-weight: 100;
+	padding: 0;
+	margin: 0;
+	color:#666667;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+tight{
+	font-size: 13px;
+	padding: 20px 0 0 0;
+	color: #666667;
+}
+
+span{
+	font-size: 14px;
+}
+
+#NameHeader{
+	float: right;
+	margin: 0px;
+    padding: 20px 10px 0 0;
+	
+}
+
+.Logo{
+	width: 50px; 
+	padding: 25px 0 0 30px;
+}
+
+body{
+    background-image: url(Images/Resume-Illustration.png);
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    background-position: 59% 59%;
+	position: fixed;
+}
+
+

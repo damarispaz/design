@@ -1,0 +1,63 @@
+#main_container{
+    width: 400px;
+    border-width: 5px;
+    border-style: double;
+    color: antiquewhite;
+    margin-top: 20px; 
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    padding: 40px; 
+    
+}
+
+p{ 
+    font-family: futura;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 22px;
+    text-indent: -22px;
+    margin-bottom: 5px;
+    color: darkgray;
+    
+}
+
+h1{
+font-family: cursive;
+font-style: normal;
+font-size: 65px;
+line-height: 52px;
+color: burlywood;
+text-align: center
+    
+}
+
+h2{
+font-family: cursive;
+font-style: normal;
+font-weight: bold;
+font-size: 26px; 
+color: burlywood;
+text-align: center;
+    
+}
+
+.intro{
+    text-indent: 0px;
+    margin-left: 0px;
+    border-color: antiquewhite;
+    border-style: dotted;
+    padding:20px;
+}
+
+strong{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+body{
+    background-color: white;
+    border:none;
+    border-color: antiquewhite;
+}

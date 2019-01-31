@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    
+}
+
+#main_container{
+    width: 600px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top; 20px;
+
+}
+
+h1{
+    font-family:'UnifrakturMaguntia', cursive;
+    font-size: 100px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.toprule{
+    margin-top: -50px;
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 29.5px;
+    text-align: center;
+    color: #fff;
+     
+}
+
+.bottomrule{
+    margin-bottom: 40px;
+    color: #fff;
+    
+}
+
+p{
+    font-family: inherit;
+    font-size: 18px;
+    text-align:left;
+    margin-left: 140px;
+    color: #fff;
+    line-height: 30px;
+}

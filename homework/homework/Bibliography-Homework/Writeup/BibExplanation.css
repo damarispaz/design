@@ -1,0 +1,49 @@
+ #main_container{
+    width: 50%;
+    border-width: 1px;
+    border-style: dotted;
+    margin-top: 20px; 
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    padding: 40px; 
+    
+}
+
+p{ 
+    font-family: georgia;
+    font-size: 15px;
+    line-height: 25px;
+    margin-left: 22px;
+    text-indent: 6px;
+    margin-bottom: 5px;
+    
+}
+
+h1{
+font-family: Book Antiqua;
+font-style: normal;
+font-size: 35px;
+line-height: 22px;
+color: black;
+text-align: center
+    
+}
+
+h2{
+font-family: georgia;
+font-style: normal;
+font-size: 20px; 
+color: indianred;
+    
+}
+
+strong{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+body{
+    background-color: white;
+}
