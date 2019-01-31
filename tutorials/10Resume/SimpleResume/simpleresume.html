@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Simple Resume</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        
+        body{
+            font-family: helvetica;
+            font-size: 16;
+            line-height: 24px; 
+            background: url(Images/noise.jpg);
+        }
+        
+        .clear{
+            clear: both;
+        }
+        
+        #maincontainer{
+            width: 800px; 
+            margin: 40px auto 60px; 
+        }
+        
+        #pic{
+            float: right;
+            margin: -30px 0 0 0; 
+        }
+        
+        h1{
+            margin: 0 0 16px 0; 
+            padding: 0 0 16px 0; 
+            font-size: 42px; 
+            font-weight: bold; 
+            letter-spacing: -1.5px; 
+            border-bottom: 1px solid #999;
+        }
+        
+        h2{
+            font-size: 20px; 
+            margin:  0px 0 6px 0; 
+            position: relative;
+        }
+        
+        h2 span{
+            position: absolute;
+            bottom: 0; 
+            right: 0; 
+            font-style: italic; 
+            font-family: georgia;
+            font-size: 16px; 
+            color: #999; 
+            font-weight: normal; 
+        }
+        
+        p{
+            margin: 0 0 16px 0; 
+        }
+        
+        a{
+            color: #999;
+            text-decoration: none; 
+            border-bottom: 1px dotted #999;
+        }
+        
+        a:hover{
+            border-bottom-style: solid;
+            color: black; 
+        }
+        
+        ul{
+            margin: 0 0 32px 17px;             
+        }
+        
+        #objective{
+            width: 500px; 
+            float: left;            
+        }
+        
+        #objective p{
+            font-family: georgia;
+            font-style: italic;
+            color: #666; 
+        }
+        
+        dt{
+            font-size: 18px; 
+            font-style: italic;
+            font-weight: bold;
+            text-align: right;
+            padding: 0 26px 0 0;
+            width: 150px;
+            height: 100px; 
+            float: left;
+            border-right: 1px solid #999;
+        }
+        
+        dd{
+            width: 600px;
+            float: right;
+        }
+        
+        dd.clear{
+            float: none; 
+            margin: 0; 
+            height: 15px; 
+        }
+        
+    </style>
+    </head>
+    
+    <body>
+    <div id="maincontainer">
+        
+        <!--contact info starts here-->
+       <img id="pic" src="Images/cthulu.png" alt="My Resume Pic">
+        <div class="fn">
+            <h1>Damaris Paz</h1>
+            <p>Cell: <span class="tel">909-908-1042</span><br />
+            Email: <a class="email" href="mailto:damarispaz28@gmail.com" target="_blank">damarispaz28@gmail.com</a><br />
+            Website: damarispaz.000webhostapp.com
+            </p>
+        </div>
+        <!--contact info ends here-->
+        
+        <!--objective starts here-->
+        <div id="objective">
+            <p>I'm an outgoing and energetic young professional, seeking a career that fits my professional skills, personality, and murderous tendancies. My squid-like head is a masterful problem solver and inspires fear in whoever gazes upon it. I can bring world domination to your organization.</p>
+        </div>
+        <!--objective ends here-->
+        
+        <!--education starts here-->
+        <div class="clear"></div>
+        <dl>
+        <dd class="clear"></dd>
+            <dt>Education</dt>
+            <dd>
+            <h2>Madness University</h2>
+                <p><strong>Major</strong>: Space Miner<br />
+                <strong>Minor</strong>: Intergalactic Spy</p>
+            </dd>
+            <dd class="clear"></dd>
+            
+            <dt>Skills</dt>
+            <dd>
+            <h2>Office Skills</h2>
+                <p>Office marvel, database wizard, event organization and customer support lover</p>
+                
+            <h2>Computer Skills</h2>
+                <p>Disabled the death star all by myself, can also do a little bit of excel</p>
+            </dd>
+            
+            <dd class="clear"></dd> 
+            <dt>Experience</dt>
+            <dd>
+            <h2>Doomsday <span>Cult Leader/Overlord - Fullerton, CA - 1234-2010</span></h2>
+             <ul>
+                <li>Inspired and own the lagtest battle against the space elves.</li>
+                 <li>Helpted coordinate amangaer to grow cult</li>
+                 <li>Provided swift and utlimate judgement to all those who opposed my rule</li>
+                </ul>
+            </dd>
+            <dd class="clear"></dd>
+            <dt>Hobbies</dt>
+            <dd>World domination, deep sea diving, playing with snails</dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>References</dt>
+            <dd>Available upon request</dd>
+            
+            
+            </dl>
+        </div>
+    </body>
+</html>

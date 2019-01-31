@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>HTML5 Layout</title>
+    <meta charset= "utf-8">
+    
+    <style>
+        .container{
+            width: 100%;
+            border: 1px solid gray;
+        }
+        
+        header, footer{
+            padding: 16px;
+            color: white;
+            background-color: black;
+            clear: left;
+            text-align-last: center;
+        }
+        
+        nav{
+            float: left;
+            max-width: 160px;
+            margin: 0px; 
+            padding: 16px;
+            
+        }
+        
+        nav ul{
+            list-style-type: none;
+            padding: 0px;
+        }
+        
+        nav ul a{
+            text-decoration: none;
+        }
+        
+        article{
+            margin-left: 170px;
+            border-left: 1px solid gray;
+            padding: 16px;
+        }
+        
+    </style>
+    </head>
+    
+    <body>
+       <div class="container">
+        <header><h1>This is a simple HTML5 Layout</h1></header>
+        <nav>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+           </nav>
+        <article>
+            <h1>This is a headline</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor orci vel eleifend lobortis. Quisque varius ante erat, eu ullamcorper lacus bibendum vitae. Maecenas cursus id nisl vitae malesuada. Aliquam lacus odio, vestibulum a ullamcorper sed, ornare eget leo. Proin sagittis felis sit amet velit euismod, eu euismod mi dapibus. In accumsan augue eget tellus faucibus, non pulvinar enim imperdiet. Nunc elementum sem vitae scelerisque ultricies. Suspendisse eu purus leo. Pellentesque efficitur at dui nec mollis. Donec hendrerit erat non tortor bibendum, et ultricies massa malesuada. Proin ac viverra augue. Nunc convallis congue viverra. Ut odio justo, aliquet a dapibus sit amet, sollicitudin vel magna. Curabitur non magna non neque tempus mattis. Phasellus eget lacus eget felis scelerisque condimentum.</p>
+            
+        </article>
+           <footer>This is a simple HTML 5 footer</footer>
+        </div>
+    </body>
+</html>

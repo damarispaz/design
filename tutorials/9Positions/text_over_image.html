@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+    <hmtl>
+        <head>
+        <title>Text Over Image</title>
+        <meta charset="utf-8">
+        <style>
+            .topleft{ 
+                position: absolute;
+                top: 30px; 
+                left: 30px; 
+                font-family: arial; 
+                font-size: 18px; 
+                font-weight: bold; 
+                color: black;
+                                 
+                }
+            .container{
+                position: relative; 
+            }
+            
+            img{
+                width: 100%;
+                height: auto; 
+                opacity: 0.3; 
+            
+            }
+            
+            .bottomleft{
+                position: absolute;
+                bottom: 8px;
+                left: 16px;
+                font-family: arial; 
+                font-size: 18px; 
+                font-weight: bold; 
+                color: black;
+            }
+            
+            .topright{
+                position: absolute;
+                top: 30px;
+                right: 30px;
+                font-family: arial; 
+                font-size: 18px; 
+                font-weight: bold; 
+                color: black;
+            }
+            
+             .bottomright{
+                position: absolute;
+                bottom: 8px;
+                right: 16px;
+                font-family: arial; 
+                font-size: 18px; 
+                font-weight: bold; 
+                color: black;
+            }
+            
+            .center{
+                position: absolute;
+                top: 50%; 
+                width: 100%;
+                text-align: center; 
+                
+                font-family: arial; 
+                font-size: 18px; 
+                font-weight: bold; 
+                color: black;
+            
+        
+        </style>    
+        </head>
+        
+        <body>
+            <div class="container">
+            <img src="Images/Ireland-landscapes-2.jpg" width="1000" height="300">
+                
+            <div class="topleft">Top Left Text</div>
+            <div class="bottomleft">Bottom Left Text</div>
+            <div class="topright">Top Right</div>
+            <div class="bottomright">Bottom Right</div>
+            <div class="center">Center Text</div>
+            </div>
+            
+        </body>
+
+    </hmtl>
